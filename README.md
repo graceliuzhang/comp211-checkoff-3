@@ -4,9 +4,9 @@ I explored the idea and process behind using C to write Python extensions. The i
 
 What I discovered:
 Python is an interpreted language and runs more slowly than C due to the Python interpreter. 
-Through using extensions like NumPy that are written in C, we are able to perform operations quicker due to:
+Through using NumPy, a library written in C, we are able to perform operations quicker due to:
 - Avoiding the Python interpreter
-- Cache locality: elements of an array are stored contiguously, making it much easier to access them
+- Cache locality: elements of an array are often stored contiguously, making it much easier to access them
 - Better memory efficiency: items are stored as basic integers, rather than Python objects
 
 For a pre-existing extension, you just need to install the package and import it in your Python code.
