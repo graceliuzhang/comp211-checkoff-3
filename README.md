@@ -16,3 +16,12 @@ For a custom extension, you must:
 - Write setup.py, a file that tells Python how to compile your C extension
 - Compile the C extension using python setup.py build_ext --inplace
 - Import and call extension
+
+
+**To Run Code**
+Open up terminal in project directory and run: python setup.py build_ext --inplace
+Then import it in main.py and run main.py
+
+**Slides**
+https://docs.google.com/presentation/d/1UTIyy9XPFYQtXA6aGkgvOos2x7kJ2xItv75I0a4knYM/edit?usp=sharing
+
