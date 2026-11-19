@@ -25,3 +25,6 @@ Then import it in main.py and run main.py
 **Slides**
 https://docs.google.com/presentation/d/1UTIyy9XPFYQtXA6aGkgvOos2x7kJ2xItv75I0a4knYM/edit?usp=sharing
 
+**Additional Resources**
+https://www.w3schools.com/python/numpy/numpy_intro.asp
+
